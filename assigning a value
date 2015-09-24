@@ -1,0 +1,28 @@
+bikes = 150 #no. of bikes
+
+seats_in_a_bike = 3.0 #no. of space in bike
+
+drivers = 30 #no. of driver to drive the bike
+
+passengers = 90 #no. of passengers to travell 
+
+bikes_not_driven = bikes - drivers #no. of bikes not driven
+
+bikes_driven = drivers #no. of bikes in travell
+
+bikepool_capacity = bikes_driven * seats_in_a_bike # total seats in bike
+
+average_passengers_per_bike = passengers / bikes_driven #avg no of person travell in bike
+
+
+puts "There are #{bikes} bikes available."
+
+puts "There are only #{drivers} drivers available."
+
+puts "There will be #{bikes_not_driven} empty bikes today."
+
+puts "We can transport #{bikepool_capacity} people today."
+
+puts "We have #{passengers} passengers to bikepool today."
+
+puts "We need to put about #{average_passengers_per_bike} in each bike."
