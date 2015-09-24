@@ -1,0 +1,11 @@
+right = "[%10s]" %"parames" #leave 10 space from right
+left = "[%-10s]" %"parames" #leave  10 space at last
+center = "[%s]" %"parames"
+sum = 7.34567 + 8.9876
+p right # will print right with ""
+puts left
+puts center
+puts "%.3f is sum" %sum #will have only upto 3 decimal 
+mul = "mul is %.2f" %1.56789043
+p mul 
+puts 1+1+5*7.35 #calculation
