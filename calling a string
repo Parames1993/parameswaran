@@ -1,0 +1,11 @@
+x = "There are #{10} types of people." #making a line equals to a single variable 
+
+binary = "binary"
+
+do_not = "don't"
+
+y = "Those who know #{binary} and those who #{do_not}." #calling a string 
+
+puts x
+
+puts y
