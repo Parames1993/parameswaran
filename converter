@@ -1,0 +1,8 @@
+i = 19
+
+cm = i * 2.54
+
+
+
+puts "%d i equals %f cm" %[i, cm] #convert inchs to centimeter
+
